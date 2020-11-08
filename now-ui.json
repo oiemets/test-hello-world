@@ -1,0 +1,14 @@
+{
+	"components": {
+	    "hello-world": {
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "hello-world",
+				"icon": "hello world",
+				"description": "Printing out hellowski",
+				"category": "primitives"
+			}
+	    }
+	},
+	"scopeName": "x_test_hello_world"
+}
