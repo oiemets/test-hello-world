@@ -1,9 +1,6 @@
 {
   "development": {
     "proxy": {
-      "headers": {
-        "Authorization": "YWRtaW46b1doaDA2ZFdHUFNl"
-      },
       "origin": "https://dev98889.service-now.com",
       "port":"3000",
       "proxies": []

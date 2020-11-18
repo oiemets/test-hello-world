@@ -1,0 +1,475 @@
+{
+  "env": {
+    "lib": {
+      "presets": [
+        "env",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-custom-element-classes\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-object-rest-spread\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-syntax-dynamic-import\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\cli-babel\\plugins\\extract-translations-properties.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "app:static": {
+      "presets": [
+        "env",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-custom-element-classes\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-object-rest-spread\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-syntax-dynamic-import\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\cli-babel\\plugins\\extract-translations-properties.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "app:static:externals": {
+      "presets": [
+        "env",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-custom-element-classes\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-object-rest-spread\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-syntax-dynamic-import\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\cli-babel\\plugins\\extract-translations-properties.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "app:dynamic": {
+      "presets": [
+        "env",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-custom-element-classes\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-object-rest-spread\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-syntax-dynamic-import\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\cli-babel\\plugins\\extract-translations-properties.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "app:glide": {
+      "presets": [
+        "env",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-custom-element-classes\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-object-rest-spread\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-syntax-dynamic-import\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\cli-babel\\plugins\\extract-translations-properties.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "dist": {
+      "presets": [
+        "env",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-custom-element-classes\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-object-rest-spread\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-syntax-dynamic-import\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\cli-babel\\plugins\\extract-translations-properties.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "test": {
+      "presets": [
+        "env",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-custom-element-classes\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-object-rest-spread\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-syntax-dynamic-import\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    },
+    "develop": {
+      "presets": [
+        "env",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-preset-react\\lib\\index.js"
+      ],
+      "plugins": [
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-custom-element-classes\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-object-rest-spread\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\cli-babel\\plugins\\extract-translations-properties.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-syntax-dynamic-import\\lib\\index.js",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-seismic-rename",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-compatibility-transform-import",
+        "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-class-properties\\lib\\index.js",
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\babel-plugin-transform-react-jsx\\lib\\index.js",
+          {
+            "pragma": "createElement"
+          }
+        ],
+        [
+          "C:\\Users\\Olek\\test-hello-world\\node_modules\\@servicenow\\ui-build-component-utils\\babel-plugin-jsx-now-pragmatic",
+          {
+            "imports": {
+              "@servicenow/ui-react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-snabbdom-renderer": {
+                "module": "@servicenow/ui-snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@servicenow/ui-renderer-react": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@servicenow/ui-renderer-snabbdom": {
+                "module": "@servicenow/ui-renderer-snabbdom",
+                "import": "createElement",
+                "export": "createElement"
+              },
+              "@seismic/react-renderer": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "sn-seismic-renderers": {
+                "module": "sn-custom-create-element",
+                "import": "createElement"
+              },
+              "@seismic/snabbdom-renderer": {
+                "module": "@seismic/snabbdom-renderer",
+                "import": "createElement",
+                "export": "createElement"
+              }
+            }
+          }
+        ]
+      ]
+    }
+  }
+}

@@ -4,8 +4,8 @@
 			"uiBuilder": {
 				"associatedTypes": ["global.core", "global.landing-page"],
 				"label": "hello-world",
-				"icon": "hello world",
-				"description": "Printing out hellowski",
+				"icon": "eye-fill",
+				"description": "Prints out hello world!",
 				"category": "primitives"
 			}
 	    }
